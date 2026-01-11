@@ -1,0 +1,44 @@
+export const certificatesData = [
+  {
+    title: "AI-Powered performance Ads",
+    issuer: "Google",
+    date: "2026",
+    image: "/certificates/google.png",
+    link: "https://drive.google.com/file/d/1hrVjPcBslwuEOmCM3pltdm4nviaBzq6G/view?usp=sharing",
+  },
+  {
+    title: "Full Stack Web Development",
+    issuer: "PT Bumi Mulia Indah Lestari",
+    date: "2023",
+    image: "/certificates/bumimulia.png",
+    link: "https://drive.google.com/file/d/1P1L1vlXnhprLhNDm1ysXOPvMaT5wuxx9/view?usp=sharing",
+  },
+  {
+    title: "Artikel ilmiah terbaik",
+    issuer: "Univarsitas Pelita Bangsa",
+    date: "2023",
+    image: "/certificates/penghargaan.png",
+    link: "https://drive.google.com/file/d/16d6eATrgzR-kAH_eGpvlF7K1sJzqD7LI/view?usp=sharing",
+  },
+   {
+    title: "Penerbitan Karya Ilmiah",
+    issuer: "Insitut SK Kemenkumham RI",
+    date: "2024",
+    image: "/certificates/jurnal.png",
+    link: "https://drive.google.com/file/d/1ujahtQg4iOlB1V40FfkPTEtJUUj4Liy7/view?usp=sharing",
+  },
+  {
+    title: "Seminar Nasional Teknologi Informasi",
+    issuer: "Universitas Pelita Bangsa",
+    date: "2024",
+    image: "/certificates/s1.png",
+    link: "https://drive.google.com/file/d/1de_5NoxoSMU4DG8-LKWukEQXr9bNcyQg/view?usp=sharing",
+  },
+   {
+    title: "Seminar Nasional Teknologi Informasi",
+    issuer: "Universitas Pelita Bangsa",
+    date: "2024",
+    image: "/certificates/s2.png",
+    link: "https://drive.google.com/file/d/1sFOUeAmK7St1XagEfDvNzmqB9H-HRE5v/view?usp=sharing",
+  },
+];

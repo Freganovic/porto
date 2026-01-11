@@ -22,6 +22,15 @@ function ProjectCard({ project }) {
       </div>
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
         <code className="font-mono text-xs md:text-sm lg:text-base">
+          {project.gambar && (
+            <div className="w-full mb-4 overflow-hidden rounded-md border border-[#1b2c68a0]">
+              <img
+                src={project.gambar}
+                alt={project.name}
+                className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          )}
           <div className="blink">
             <span className="mr-2 text-pink-500">const</span>
             <span className="mr-2 text-white">project</span>
@@ -61,6 +70,20 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
+          {project.demo && (
+            <div className="ml-4 lg:ml-8 mr-2">
+              <span className="text-white">demo:</span>{' '}
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-400 underline hover:text-green-300 transition"
+              >
+                Live Demo
+              </a>
+              <span className="text-gray-400">,</span>
+            </div>
+          )}
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
