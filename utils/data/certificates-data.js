@@ -1,4 +1,11 @@
 export const certificatesData = [
+    {
+    title: "Penerapan Data Science dengan Microsoft Fabric",
+    issuer: "Microsoft and Dicoding",
+    date: "2026",
+    image: "/certificates/dicoding.png",
+    link: "https://drive.google.com/file/d/17tgoJX030IqNwkEO8TICOKcnMKDllQ23/view?usp=sharing",
+  },
   {
     title: "AI-Powered performance Ads",
     issuer: "Google",
