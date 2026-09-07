@@ -48,6 +48,16 @@ export const projectsData = [
         demo: '',
         role: 'Full Stack Developer',
         gambar: '/image/laravel.png',
+    },
+    {
+        id: 6,
+        name: 'Sistem Pengenalan Wajah',
+        description: 'A real-time face recognition system designed to verify student identities using facial recognition technology. The system uses the Haar Cascade algorithm for face detection and Local Binary Pattern Histogram (LBPH) for face recognition. Built with Python, OpenCV, and Flask, the application captures facial data through a camera, processes and recognizes registered faces, and displays the corresponding student identity in real-time. This project was developed to support a more efficient and automated student identity verification process.',
+        tools: ['Python', 'OpenCV', 'Haar Cascade', 'LBPH', 'Flask', 'NumPy', 'HTML', 'CSS', 'JavaScript'],
+        code: '',
+        demo: '',
+        role: 'AI/Computer Vision Developer',
+        gambar: '/image/face-recognition.png',
     }
 ];
 
