@@ -13,8 +13,8 @@ export const experiences = [
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
+    title: "Data Anotator",
+    company: "Mindflow",
+    duration: "(Jan 2026 - Present)"
   }
 ]
