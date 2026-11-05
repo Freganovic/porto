@@ -2,7 +2,8 @@ export const projectsData = [
     {
         id: 1,
         name: 'Sistem Pengajuan MBKM',
-        description: "Sistem Pengajuan MBKM merupakan aplikasi berbasis web yang dikembangkan untuk mendukung proses pengajuan, verifikasi, dan pengelolaan program Merdeka Belajar Kampus Merdeka (MBKM) secara terstruktur dan terintegrasi. Sistem ini dirancang untuk mempermudah mahasiswa dalam mengajukan program MBKM, sekaligus membantu pihak kampus dalam melakukan administrasi, validasi data, dan monitoring status pengajuan secara real-time.",
+        description:
+            'Sistem Pengajuan MBKM merupakan aplikasi berbasis web yang dikembangkan untuk mendukung proses pengajuan, verifikasi, dan pengelolaan program Merdeka Belajar Kampus Merdeka (MBKM) secara terstruktur dan terintegrasi. Sistem ini dirancang untuk mempermudah mahasiswa dalam mengajukan program MBKM, sekaligus membantu pihak kampus dalam melakukan administrasi, validasi data, dan monitoring status pengajuan secara real-time.',
         tools: ['PHP', 'MySQL', 'CSS', 'HTML', 'JavaScript', 'React'],
         role: 'Full Stack Developer',
         code: '',
@@ -12,8 +13,9 @@ export const projectsData = [
     {
         id: 2,
         name: 'Sistem Presentase Progres App',
-        description: 'Sistem Presentase Progres merupakan aplikasi berbasis web yang dirancang untuk memantau, menghitung, dan menampilkan tingkat progres pekerjaan atau kegiatan secara terukur dan real-time. Sistem ini membantu pengguna dalam mengetahui capaian pekerjaan berdasarkan indikator atau tahapan yang telah ditentukan, sehingga proses evaluasi dan pengambilan keputusan dapat dilakukan secara lebih akurat dan transparan.',
-        tools: ['NextJS', 'CSS', "PHP", "NestJS", "TypeScript", "MySQL", "Laravel", "Sun-Editor", "Gmail Passkey"],
+        description:
+            'Sistem Presentase Progres merupakan aplikasi berbasis web yang dirancang untuk memantau, menghitung, dan menampilkan tingkat progres pekerjaan atau kegiatan secara terukur dan real-time. Sistem ini membantu pengguna dalam mengetahui capaian pekerjaan berdasarkan indikator atau tahapan yang telah ditentukan, sehingga proses evaluasi dan pengambilan keputusan dapat dilakukan secara lebih akurat dan transparan.',
+        tools: ['NextJS', 'CSS', 'PHP', 'NestJS', 'TypeScript', 'MySQL', 'Laravel', 'Sun-Editor', 'Gmail Passkey'],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
@@ -22,27 +24,30 @@ export const projectsData = [
     {
         id: 3,
         name: 'Chatbot Virtual Assistant di Stasiun KAI Cikarang',
-        description: 'Proyek ini bertujuan untuk meningkatkan efisiensi layanan informasi publik di Stasiun Kereta Api KAI Cikarang dengan mengembangkan chatbot virtual assistant berbasis teknologi TF-IDF dan Cosine Similarity. Proyek ini menggunakan Natural Language Processing (NLP) untuk mencocokkan pertanyaan pengguna dengan jawaban yang relevan secara otomatis.',
+        description:
+            'Proyek ini bertujuan untuk meningkatkan efisiensi layanan informasi publik di Stasiun Kereta Api KAI Cikarang dengan mengembangkan chatbot virtual assistant berbasis teknologi TF-IDF dan Cosine Similarity. Proyek ini menggunakan Natural Language Processing (NLP) untuk mencocokkan pertanyaan pengguna dengan jawaban yang relevan secara otomatis.',
         tools: ['Python', 'TF-IDF', 'Cosine Similarity', 'BotFather', 'Telegram Bot API', 'Flask', 'Google Colab'],
-        code: '',
         role: 'Full Stack Developer',
+        code: '',
         demo: '',
         gambar: '/image/chatbot.png',
     },
     {
         id: 4,
         name: 'E-commerce-Data-Analysis for Sales Strategy',
-        description: "In their annual sales review meeting, Kmart, one of the largest online retailers in the US, must decide on their sales strategy for 2020 based on insights from the 2019 sales data. This project focuses on generating key insights regarding Kmart's sales for each month of 2019. The data will be used to assist Kmart's sales team in fine-tuning sales strategies as the year progresses.",
-        tools: ['Python', 'Jupyter', 'Pandas', 'Plotly','Matplotlib', 'Seaborn', "Calendar"],
+        description:
+            "In their annual sales review meeting, Kmart, one of the largest online retailers in the US, must decide on their sales strategy for 2020 based on insights from the 2019 sales data. This project focuses on generating key insights regarding Kmart's sales for each month of 2019. The data will be used to assist Kmart's sales team in fine-tuning sales strategies as the year progresses.",
+        tools: ['Python', 'Jupyter', 'Pandas', 'Plotly', 'Matplotlib', 'Seaborn', 'Calendar'],
         code: '',
         demo: '',
         role: 'Data Analyst',
         gambar: '/image/data.png',
     },
-     {
+    {
         id: 5,
         name: 'Admin Dashboard for Inventory Management System',
-        description: "In their annual sales review meeting, Kmart, one of the largest online retailers in the US, must decide on their sales strategy for 2020 based on insights from the 2019 sales data. This project focuses on generating key insights regarding Kmart's sales for each month of 2019. The data will be used to assist Kmart's sales team in fine-tuning sales strategies as the year progresses.",
+        description:
+            'Admin Dashboard for Inventory Management System is a web-based admin panel built with Laravel and Filament to manage product data, stock levels, and inventory transactions. It provides CRUD management, searchable data tables, filters, and a summary dashboard that helps administrators monitor stock levels and make restocking decisions more efficiently.',
         tools: ['Laravel', 'Filament', 'PHP', 'JavaScript', 'MySQL', 'HTML', 'CSS'],
         code: '',
         demo: '',
@@ -52,15 +57,37 @@ export const projectsData = [
     {
         id: 6,
         name: 'Sistem Pengenalan Wajah',
-        description: 'A real-time face recognition system designed to verify student identities using facial recognition technology. The system uses the Haar Cascade algorithm for face detection and Local Binary Pattern Histogram (LBPH) for face recognition. Built with Python, OpenCV, and Flask, the application captures facial data through a camera, processes and recognizes registered faces, and displays the corresponding student identity in real-time. This project was developed to support a more efficient and automated student identity verification process.',
+        description:
+            'A real-time face recognition system designed to verify student identities using facial recognition technology. The system uses the Haar Cascade algorithm for face detection and Local Binary Pattern Histogram (LBPH) for face recognition. Built with Python, OpenCV, and Flask, the application captures facial data through a camera, processes and recognizes registered faces, and displays the corresponding student identity in real-time. This project was developed to support a more efficient and automated student identity verification process.',
         tools: ['Python', 'OpenCV', 'Haar Cascade', 'LBPH', 'Flask', 'NumPy', 'HTML', 'CSS', 'JavaScript'],
         code: '',
         demo: '',
         role: 'AI/Computer Vision Developer',
         gambar: '/image/face-recognition.png',
-    }
+    },
+    {
+        id: 7,
+        name: 'Data Annotator untuk Mobile Autonomous Vehicle Xiaomi',
+        description:
+            'Pekerjaan anotasi data untuk pengembangan sistem mobil autonomous Xiaomi. Tugas utama meliputi pelabelan objek pada data gambar dan video dari kamera kendaraan, seperti kendaraan, pejalan kaki, rambu lalu lintas, dan lajur jalan, dengan mengikuti pedoman anotasi yang ditetapkan. Pekerjaan ini mendukung kualitas dataset yang digunakan untuk melatih model persepsi kendaraan.',
+        tools: ['CVAT', 'Label Studio', 'Excel'], // perlu dikonfirmasi
+        role: 'Data Annotator',
+        code: '',
+        demo: '',
+        gambar: '/image/anotator.png', // ganti dengan nama file gambar kamu
+    },
+    {
+        id: 8,
+        name: 'AI Virtual Assistant',
+        description:
+            'JARVIS adalah asisten virtual berbasis Artificial Intelligence (AI) yang dikembangkan menggunakan Python dan Google Gemini Live API, dengan kemampuan interaksi suara secara real-time, pemahaman bahasa alami, serta otomatisasi berbagai tugas komputer seperti membuka aplikasi, pencarian web, pemutaran video, dan pengelolaan pengingat.',
+        tools: ['Python', 'NLP', 'Flask'], // ganti dengan tools yang kamu pakai
+        role: 'AI Developer', // sesuaikan dengan role kamu
+        code: '',
+        demo: '', // isi jika ada link demo
+        gambar: '/image/ai.png', // ganti dengan nama file gambar kamu
+    },
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below
