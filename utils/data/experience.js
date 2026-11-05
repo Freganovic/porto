@@ -1,9 +1,15 @@
 export const experiences = [
   {
+    id: 4,
+    title: "IT Support Specialist",
+    company: "AJS SERVICE CENTER",
+    duration: "(Jan 2021 - Feb 2022)"
+  },
+  {
     id: 1,
     title: 'Software Engineer I',
     company: "PT Bumi mulia indah lestari.",
-    duration: "(Jan 2022 - okt 2023)"
+    duration: "(Feb 2022 - okt 2023)"
   },
   {
     id: 2,
